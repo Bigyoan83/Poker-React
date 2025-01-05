@@ -1,15 +1,16 @@
 import '../style/Main.css'
-import List from './CardList'
+import {toutesLesCartes} from './CardList'
 
-function Main ({List}) {
+function Main () {
 
-    const carteAleatoire = Main[Math.floor(Math.random() * Main.length)];
+    const carteAleatoire = toutesLesCartes[Math.floor(Math.random() * toutesLesCartes.length)];
     console.log(carteAleatoire);
 
     return (
-        <div>
-            <List/>
-        </div>
+    <div className='main'>
+        <h2>Main du joueur 1</h2>
+        <p>{carteAleatoire}</p>
+    </div>
     )
 }
 
