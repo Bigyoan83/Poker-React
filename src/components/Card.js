@@ -4,22 +4,22 @@ import '../style/Card.css'
 function Card() {
   return (
     <div>
-      <h1>Paquet</h1>
+      <h2>Paquet</h2>
       <div className='card'>
         <div>
-            <h2>Coeur (♥)</h2>
+            <h3>Coeur (♥)</h3>
             <List suite="♥" />
         </div>
         <div>
-            <h2>Carreau (♦)</h2>
+            <h3>Carreau (♦)</h3>
             <List suite="♦" />
         </div>
         <div>
-            <h2>Pique (♠)</h2>
+            <h3>Pique (♠)</h3>
             <List suite="♠" />
         </div>
         <div>
-            <h2>Trèfle (♣)</h2>
+            <h3>Trèfle (♣)</h3>
             <List suite="♣" />
         </div>
       </div>
