@@ -1,4 +1,3 @@
-
 export const toutesLesCartes = ['♥', '♦', '♠', '♣'].flatMap(suite => 
   [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Valet', 'Dame', 'Roi'].map(valeur => `${valeur} ${suite}`)
 );
